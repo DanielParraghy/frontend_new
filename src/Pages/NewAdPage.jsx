@@ -91,6 +91,7 @@ export const NewAdPage = () => {
                 ownerId: localStorage.getItem('userId'),
                 settlement: selectedSettlement.value
             }, { headers });
+            //miamanó
 
             console.log('Ad posted successfully!');
         } catch (error) {
